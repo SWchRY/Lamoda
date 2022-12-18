@@ -1,0 +1,15 @@
+.Product{
+    background: rgb(240, 235, 235);
+    text-align: left;
+}
+.ProductImg img{
+    width: 100%;
+    height: 30vh;
+}
+.ProductDesc{
+    margin-left: 20px;
+}
+.DescOfCar{
+    font-size: 18px;
+    font-weight: 300;
+}

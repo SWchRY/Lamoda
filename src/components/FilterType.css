@@ -1,0 +1,18 @@
+.FilterType{
+    padding: 0 10px 0 10px;
+}
+.FilterType_P{
+    font-size: 18px;
+    margin:7px 0 7px 0;
+}
+
+button{
+    background: white;
+    transition: 1s;
+    border: 1px solid black;
+}
+
+.act{
+    background-color: rgb(233, 227, 227);
+    transition: 1s;
+}

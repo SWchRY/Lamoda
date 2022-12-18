@@ -1,0 +1,39 @@
+.FilterByPrice{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.PriceBlock{
+    font-size: 18px;
+    margin: 0;
+    border: 1px solid gray;
+    padding: 7px 85px 7px 10px;
+}
+
+.PriceInterval{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 171px;
+    background-color: rgb(228, 221, 221);
+    justify-content: space-around;
+    position: relative;
+}
+.StartPrice{
+    width: 50px;
+}
+.EndPrice{
+    width: 50px;
+}
+
+.PriceInterval::before{
+    content: "";
+    width: 15px;
+    height: 0.5px;
+    background-color: black;
+    position: absolute;
+    top: 20px;
+    align-items: center;
+}

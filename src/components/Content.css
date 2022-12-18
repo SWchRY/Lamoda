@@ -1,0 +1,16 @@
+.Content{
+    padding-top: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.Color_Price{
+    
+}
+
+.ProductsAndSorting{
+    display: flex;
+    column-gap: 29px;
+}
